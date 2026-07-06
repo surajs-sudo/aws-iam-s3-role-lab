@@ -1,3 +1,10 @@
+![AWS](https://img.shields.io/badge/AWS-Cloud-orange?logo=amazonaws)
+![IAM](https://img.shields.io/badge/IAM-Security-blue)
+![EC2](https://img.shields.io/badge/EC2-Virtual%20Machine-orange)
+![Amazon S3](https://img.shields.io/badge/S3-Storage-green)
+![Cloud Security](https://img.shields.io/badge/Cloud-Security-red)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+
 # ☁️ AWS IAM & EC2 S3 Role Lab
 
 > Secure AWS IAM Access Management and EC2 IAM Role Configuration for Amazon S3 Read-Only Access following the Principle of Least Privilege (PoLP).
