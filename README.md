@@ -289,9 +289,7 @@ aws-iam-s3-role-lab/
 │   ├── 04-users-added.png
 │   ├── 05-role-created.png
 │   ├── 06-role-attached.png
-│
-└── images/
-    └── architecture.png
+
 ```
 
 ---
