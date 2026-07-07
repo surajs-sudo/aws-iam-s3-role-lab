@@ -34,32 +34,41 @@ The lab focuses on reducing credential exposure and implementing role-based acce
 ## 🏗️ Architecture
 
 ```
-                 AWS IAM
+                              AWS Cloud
 
-        +---------------------+
-        |     IAM Users       |
-        +---------------------+
-                  |
-                  |
+      +-------------------------+
+      |       IAM Users         |
+      +-------------------------+
+                  │
                   ▼
-        +---------------------+
-        |    IAM Group        |
-        | S3_ReadOnly_Group   |
-        +---------------------+
-                  |
-                  |
- AmazonS3ReadOnlyAccess Policy
-                  |
+      +-------------------------+
+      |  IAM Group              |
+      | S3_ReadOnly_Group       |
+      +-------------------------+
+                  │
                   ▼
-
-            EC2 Instance
-        +----------------+
-        |  EC2_S3_Role   |
-        +----------------+
-                  |
+      +-------------------------+
+      | AmazonS3ReadOnlyAccess  |
+      | AWS Managed Policy      |
+      +-------------------------+
+                  │
                   ▼
-           Amazon S3 Bucket
-          (Read Only Access)
+      +-------------------------+
+      | IAM Role                |
+      | EC2_S3_Role             |
+      +-------------------------+
+                  │
+                  ▼
+      +-------------------------+
+      | EC2 Instance            |
+      | vcl-ubuntu-lab          |
+      +-------------------------+
+                  │
+                  ▼
+      +-------------------------+
+      | Amazon S3 Bucket        |
+      | Read-Only Access        |
+      +-------------------------+
 ```
 
 ---
