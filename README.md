@@ -101,7 +101,7 @@ The lab focuses on reducing credential exposure and implementing role-based acce
 
 📸 Screenshot:
 
-(Add Screenshot Here)
+![IAM Users](screenshots/01-IAM-Users.png)
 
 ---
 
@@ -121,7 +121,7 @@ Benefits
 
 📸 Screenshot:
 
-(Add Screenshot Here)
+![IAM Group](screenshots/02-IAM-Group.png)
 
 ---
 
@@ -141,7 +141,7 @@ Benefits
 
 📸 Screenshot:
 
-(Add Screenshot Here)
+![Attached AmazonS3ReadOnlyAccess Policy](screenshots/03-S3-Policy.png)
 
 ---
 
@@ -157,7 +157,7 @@ Benefits
 
 📸 Screenshot:
 
-(Add Screenshot Here)
+![Added Users to IAM Group](screenshots/02-IAM-Group.png)
 
 ---
 
@@ -189,7 +189,7 @@ Benefits
 
 📸 Screenshot:
 
-(Add Screenshot Here)
+![Created EC2 IAM Role](screenshots/05-EC2-Role.png)
 
 ---
 
@@ -205,7 +205,8 @@ Benefits
 
 📸 Screenshot:
 
-(Add Screenshot Here)
+![Attached IAM Role to EC2](screenshots/06-Role-Attached.png)
+
 
 ---
 
@@ -290,9 +291,8 @@ aws-iam-s3-role-lab/
 
 Complete project report:
 
-📄 **AWS_IAM_Role_Assignment.pdf**
+**[👉 Click here to read the complete Report of AWS IAM Role Assignment (PDF)](report/Report_AWS_IAM_Role_Assignment.pdf)**
 
-(Add PDF Link Here)
 
 ---
 
